@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>HTML , CSS , JS 2</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+   
+    <link rel="stylesheet" type="text/css" href="css/estilos2.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caramel&family=Chivo+Mono:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+   
+  
+    <!-- Open Graph data -->
+<meta property="og:title" content="Web Semántica" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content=" http://www.example.com" />
+<meta property="og:image" content=" http://example.com/image.jpg" />
+<meta property="og:description" content="Documento que enseña a hacer bien las cosa desde el princio" />
+</head>
+
+<body>
+ 
+
+
+    
+<div class="header">
+    <h1>Mi CURRICULUM VITAE</h1>
+    <h2>Pablo Matías Monsalvo</h2>
+    <h3>Cuando creíamos que teníamos todas las respuestas, de pronto, cambiaron todas las preguntas.
+      Mario Benedetti</h3>
+    <p>Toda la información real no lo dude.</p>
+    
+    <a href="https://ar.pinterest.com/pin/672795631802173541/"> <img src="https://i.pinimg.com/564x/eb/f8/e4/ebf8e42fe3deaf2a1dde01ef98bd5ed8.jpg" width="200px" height="200px" alt="imagen de Brucee Lee"></a>
+    <p id="demo">JavaScript me gusta y lo entiendo.</p>
+
+<button type="button" id="boton"> click aqui</button>
+<button type="button" id="boton_color">Cambiar color de fondo</button>
+<button type="button" id="boton_default">Reestablecer color de fondo</button>
+<button type="button" id="boton_ocultar">Ocultar texto</button>
+
+<h2>My First JavaScript</h2>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+
+
+<h2>What Can JavaScript Do?</h2>
+<p>JavaScript can change HTML attribute values.</p>
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<img id="myImage" src="https://www.w3schools.com/js/pic_bulbon.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+
+
+<h2>What Can JavaScript Do?</h2>
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+<p id="demo"></p>
+
+
+<h2>The window.print() Method</h2>
+<p>Click the button to print the current page.</p>
+<button onclick="window.print()">Print this page</button>
+
+
+<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+<p id="demo"></p>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D0UeqkMXeXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_blog">ir a w3schools</a>
+
+  </div>
+  
+  <div class="topnav">
+    <a href="#informacion personal">Información personal</a>
+    <a href="#experiencia laboral">Experiencia laboral</a>
+    <a href="#habilidades adquiridas">Habilidades adquiridas</a>
+    <a href="#trabajos realizados">Trabajos realizados</a>
+    <a href="#recomendaciones">Recomendaciones</a>
+    <a href="#contacto"style="float:right">Contacto</a>
+  </div>
+  
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+       
+        <h2>Información personal</h2>
+        <ul>
+          <li>buena persona</li>
+          <li>buen alumno</li>
+          <li>buen mozo</li>
+          <li>derrochon de carisma</li>
+          <li>exelente cocinero</li>
+          <li>me saco el sombrero mirandome al espejo</li>
+        </ul>
+        <h5>Titulo de descripción, Enero 7, 2023</h5>
+        <figure>
+        <img src="brucelee.jpg" width="200px" height="200px" alt="iamgen del cocinero">
+        <figcaption> cocinero <em> de los mejores</em></figcaption>
+        </figure>
+        <p>Más sobre lo maravilloso de mi..La gloria no consiste en no caer nunca, sino más bien en levantarse las veces que sea necesario.
+          Mario Benedetti</p>
+        <p>He tenido la fortuna de Dios de nacer sano y en una buena familia trabajadora, en un pueblo lindo y además pasar por diferentes trabajos; desde construcción, electricista, metalurgico, aspirante a suboficial del ejercito y prefectura naval, técnico electrónico e instructor en formación profesional, y ahora estudiante de frond end.sigamos adelante carajo!!!!!.</p>
+      </div>
+
+
+      <div class="card">
+       
+        <h2>Experiencia <strong>laboral</strong></h2>
+        <ol>
+          <li>nunca llego tarde</li>
+          <li>siempre voy aseado</li>
+          <li>no busco problemas</li>
+          <li>soy colaborador</li>
+          <li>me gusta adelantar trabajos</li>
+          <li>autodidacta</li>
+        </ol>
+        <figure>
+          <img src="brucelee.jpg" width="200px" height="200px" alt="iamgen del cocinero">
+          <figcaption> cocinero <em> de los mejores</em></figcaption>
+          </figure>
+
+        <h5><strong>Por estas razones me postulo</strong>, Enero 9 , 2023</h5>
+        
+        <p class="established">Queremos tener un buen trabajo..</p>
+        <p>somos una masa<strong> vamos polll</strong>"trabaja duro en silencio,que el éxito sea tu ruido" Frank Ocean.</p>
+      </div>
+    </div>
+
+
+
+<hr>
+    <h1>
+      Bienvenido de nuevo, Pablo Matías Monsalvo.
+      Queda prohibido no sonreír a los problemas, no luchar por lo que quieres, abandonarlo todo por miedo, no convertir en realidad tus sueños.
+      Pablo Neruda</h1>
+   <div class="container">
+      <div class="marker red">
+      <div class="cap"></div>
+        <div class="sleeve"></div>
+      </div>
+
+        <div class=" marker green">
+          <div class="cap"></div> 
+          <div class="sleeve"></div> 
+        </div>
+        
+        <div class=" marker blue">
+          <div class="cap"></div>
+          <div class="sleeve"></div>
+      </div>
+   
+
+       <hr>
+      
+    <div class="menu">
+        
+          <h1>MONSALVO CAFE</h1>
+          <p class="established">Sin duda una experiencia única</p>
+          <hr>
+
+<section>
+  <fieldset>
+    <legend>Mi lista</legend>
+     <!-- <div class="card"> -->
+      
+        <h2>Lista de cafés artesanales triturados en el <em>acto</em></h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="caffee icon">
+        <hr>
+
+        <article class="item">
+          <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+        </article>
+
+        <article class="item">
+          <p class="flavor"> Macchiato</p><p class="price">3.75</p>
+          </article>
+
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+            </article>
+
+              <article class="item">
+              <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+              </article>
+
+              <article class="item">
+                <p class="flavor">Mocha</p><p class="price">4.50</p>
+                </article>
+                <hr>
+        <!--<div class="fakeimg"><p>Image</p></div>
+        <div class="fakeimg"><p>Image</p></div>
+        <div class="fakeimg"><p>Image</p></div> -->
+      <!--</div>-->
+    
+   <!-- </section> 
+  <section>-->
+
+    <h2>Postres</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
+    <article class="item">
+      <hr>
+      <p class="postres">Donas</p><p class="price">1.50</p>
+      </article>
+
+      <article class="item">
+        <p class="postres">Pastelitos</p><p class="price">2.50</p>
+      </article>
+
+      <article class="item">
+        <p class="postres">Pasta flora</p><p class="price">3.50</p>
+      </article>
+
+      <article class="item">
+        <p class="postres">Torta Alemana</p><p class="price">4.50</p>
+      </article>
+      <hr class="bottom-line">
+      <footer>
+        <p><a href="https://www.freecodecamp.org" target="_blank">Visite nuestro sitio web</a>
+          <p class="address"></p>Buenos Aires 1636 - Monte Vera - Santa Fe - Argentina - Planeta Tierra - Vía Láctea</p>
+      </footer>
+
+  </fieldset>
+
+</section>
+
+
+
+</div>
+
+<hr>
+
+
+      <!--<div class="card">
+    <article id="Recomendaciones"></article>-->
+    <div class="form">
+        <h2>Formulario de inscripción</h2>
+        <p>Por favor llene este formulario con la información requerida</p>
+        
+        <form method="post" action='https://register-demo.freecodecamp.org'></form>
+        <fieldset>
+          <label for="first-name">Ingrese su primer nombre: 
+            <input id="first-name"
+             name="nombre" 
+             type="text" required >
+            </label>
+        
+          <label for="last-name">Ingrese su apellido: 
+            <input id="last-name"
+             name="apellido"
+              type="text" required>
+            </label>
+  
+          <label for="email">ingrerse su correo electrónico: 
+            <input id="email" 
+            name="correo"
+             type="email" required>
+            </label>
+  
+          <label for="new-password">Ingrese su contraseña: 
+            <input id="new-password"
+            name="contraseña" 
+            type="password" 
+            pattern="[a-z0-5]{8,}" required>
+          </label>
+
+        </fieldset>
+
+        <fieldset>
+        <label for="personal-account">
+          <input id="personal-account" 
+          class="inline" 
+           type="radio"
+            name="account-type"> Cuenta Personal</label>
+
+        <label for="business-account">
+          <input id="business-account"
+           class="inline" 
+            type="radio"
+             name="account-type"/>Cuenta de Empresa</label>
+
+        <label for="terms-and-conditions">
+        <input id="terms-and-conditions" 
+        class="inline"  
+        type="checkbox" required
+        name="terms-and-conditions">Acepto los <a href="https://www.freecodecamp.org/news/terms-of-service/">terminos y condiciones</a>
+        </label>
+        </fieldset>
+
+        <fieldset>
+          <label for="profile-picture">Suba una foto de perfil: <input id="profile-picture" name="profile" type="file" /></label>
+
+          <label for="age">Ingrese su edad (años): <input id="age" name="age" type="number" min="13" max="120" /></label>
+  
+
+  <label for="referrer">Cómo se enteró de nosotros?
+     <select id="referrer" 
+     name="referencias">
+     <option value="">(select one)</option>
+     <option value="1">por cobrar caro</option>
+     <option value="2">por habladurías en el almacen</option>
+     <option value="3">por nuestro levante desmedido con las chicas</option>
+     <option value="4">Otras</option>
+  </select> 
+</label> 
+
+</label>
+<label for="bio">Proporcione una biografía:
+  <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Me gusta programar en silencio junto al mar..."></textarea>
+  </label>
+</fieldset>
+
+        <input type="submit" value="Submit">
+    </div>
+   <hr>
+
+    <div class="frame">
+      <div class="canvas">
+        <div class="one"></div>
+          <div class="two"></div>
+            <div class="three"></div>
+  <h6>pintura de ROTHKO</h6>
+           
+      </div>
+    </div>
+ 
+<hr>
+    <header class="header">
+      <h1> css<span>flexbox </span> gallery</h1>
+      <h2>Seguir cuando crees que no puedes más, es lo que te hace diferente a los demás
+        Rocky Balboa</h2>
+        
+            </header>
+            <div class="gallery">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg">
+              <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg">
+              </div>
+
+
+
+  <hr>
+
+
+
+  
+  <div class="footer">
+  
+    <h2>Contacto</h2>
+    <form action="pablitu2010@live.com.ar"></form>
+    <fieldset>
+    <legend>Desea contarar al postulante</legend>
+    <label><input checked id="si"  type="radio" name="si-no" value="si">Si</label>
+    
+    <legend>Desea contratar al postulante</legend>
+    <label><input id="no" type="radio" name="si-no" value="no">No</label>
+    </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Cómo es la personalidad de Pablo Matías Monsalvo?</legend>
+      <input checked id="carismático" type="checkbox" name="personalidad"> <label for="carismático">Carismático</label>
+      <input id="muy social"  type="checkbox" name="personalidad"> <label for="muy social">Muy social</label>
+      <input id="benevolente" type="checkbox" name="personalidad"> <label for="benevolente">Benevolente</label>
+      <p>No Copyright - <a href="https://academy.profesional.ticmas.io/academies">Ticmas Academy</a></p>
+    </fieldset>
+    <input type="text"  name="emaildepol"  placeholder="email de pol"  required>
+    <button type="enviar">Enviar </button>
+
+    
+  </div>
+
+
+
+<hr>
+
+
+   
+  <div class="label">
+    <header>
+      <h1 class="bold">Nutrition Facts</h1>
+      <div class="divider"></div>
+      <p>8 servings per container</p>
+      <p class="bold">Serving size <span>2/3 cup (55g)</span></p>
+    </header>
+    <div class="divider large"></div>
+    <div class="calories-info">
+      <div class="left-container">
+        <h2 class="bold small-text">Amount per serving</h2>
+        <p>Calories</p>
+      </div>
+      <span class="right">230</span>
+    </div>
+    
+    <div class="divider medium"></div>
+    <div class="daily-value small-text">
+      <p class="bold right no-divider">% Daily Value *</p>
+      <div class="divider"></div>
+
+      <p><span><span class="bold">Total Fat</span> 8g</span> <span class="bold right">10%</span></p>
+
+      <p class="indent no-divider">Saturated Fat 1g <span class="bold right">5%</span></p>
+      <div class="divider"></div>
+
+      <p class="indent no-divider"><span><i>Trans</i> Fat 0g</span></p>
+      <div class="divider"></div>
+
+      <p><span><span class="bold">Cholesterol</span> 0mg</span> <span class="right bold">0%</span></p>
+
+      <p><span><span class="bold">Sodium</span> 160mg</span> <span class="right bold">7%</span></p>
+
+      <p><span><span class="bold">Total Carbohydrate</span> 37g</span> <span class="right bold">13%</span></p>
+
+      <p class="indent no-divider">Dietary Fiber 4g</p>
+      <div class="divider"></div>
+
+      <p class="indent no-divider">Total Sugars 12g</p>
+      <div class="divider double-indent"></div>
+
+
+      <p class="double-indent no-divider">Includes 10g Added Sugars <span class="right bold">20%</span>
+
+      <div class="divider"></div>
+      <p class="no-divider"><span class="bold">Protein</span> 3g</p>
+      <div class="divider large"></div>
+      <p>Vitamin D 2mcg <span>10%</span></p>
+      <p>Calcium 260mg <span>20%</span></p>
+      <p>Iron 8mg <span>45%</span></p>
+      <p class="no-divider">Potassium 235mg <span>6%</span></p>
+    </div>
+    <div class="divider medium"></div>
+    <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily
+      diet. 2,000 calories a day is used for general nutrition advice.</p>
+  </div>
+   
+<hr>
+
+
+  <img src="messi con la copa.webp" weight="50px" heigth="50px" alt="messi">
+<hr>
+<h1>Un poema</h1>
+<p>no tengas miedo de la grandeza.<br>
+Algunos nacen grandes,<br>
+algunos alcanzan la grandeza,<br>
+y a otros les imponen la grandeza</p>
+
+<p><em>-William Shakespeare</em></p>
+  
+ 
+
+  
+
+    <script src=" js/eventos2.js"></script>
+
+<hr>
+    <header>
+      <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+      <h1>HTML/CSS Quiz</h1>
+      <nav>
+        <ul>
+          <li><a href="#student-info" accesskey="a">INFO</a></li>
+          <li><a href="#html-questions" accesskey="b" >HTML</a></li>
+          <li><a href="#css-questions" accesskey="c" >CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+        <section role="region" aria-labelledby="student-info">
+          <h2 id="student-info">Student Info</h2>
+          <div class="info">
+            <label for="student-name">Name:</label>
+            <input type="text" name="student-name" id="student-name" />
+          </div>
+          <div class="info">
+            <label for="student-email">Email:</label>
+            <input type="email" name="student-email" id="student-email" />
+          </div>
+          <div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
+          </div>
+        </section>
+        
+        <section role="region" aria-labelledby="html-questions">
+          <h2 id="html-questions">HTML</h2>
+          <div class="question-block">
+            <p>1</p>
+            <fieldset class="question" name="html-question-one">
+              <legend>
+                The legend element represents a caption for the content of its
+                parent fieldset element
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q1-a1">
+                    <input type="radio" id="q1-a1" name="q1" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q1-a2">
+                    <input type="radio" id="q1-a2" name="q1" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <p>2</p>
+            <fieldset class="question" name="html-question-two">
+              <legend>
+                A label element nesting an input element is required to have a
+                for attribute with the same value as the input's id
+              </legend>
+              <ul class="answers-list">
+                <li>
+                  <label for="q2-a1">
+                    <input type="radio" id="q2-a1" name="q2" value="true" />
+                    True
+                  </label>
+                </li>
+                <li>
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a2" name="q2" value="false" />
+                    False
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+        </section>
+
+        <section role="region" aria-labelledby="css-questions">
+          <h2 id="css-questions">CSS</h2>
+
+
+          <div class="formrow">
+
+            <div class="question-block">
+              <label for="pol">Are you a frontend developer?</label>
+            </div>
+
+            <div class="answer">
+              <select name="pol" id="pol" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+
+            <div class="question-block">
+              <label for="css-question">Do you have any questions:</label>
+            </div>
+
+            <div class="answer">
+              <textarea id="css-question" name="css-question" rows="5" cols="24" placeholder="pol es lo más..."></textarea>
+            </div>
+
+          </div>
+    </section>
+
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <footer>
+      <address>
+        <a href="https://freecodecamp.org"> freeCodeCamp</a><br>
+          San Francisco<br>
+          California<br>
+          USA
+      </address>
+    </footer>
+    <hr>
+
+    <main>
+      <section>
+        <h1>
+          <span class="flex">
+            <span>AcmeWidgetCorp</span>
+            <span>Balance Sheet</span>
+          </span>
+        </h1>
+        <div id="years" aria-hidden="true">
+          <span class="year">2019</span>
+          <span class="year">2020</span>
+          <span class="year">2021</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Assets</caption>
+            <thead>
+              <tr>
+                <td></td>
+                <th><span class="sr-only year">2019</span></th>
+                <th><span class="sr-only year">2020</span></th>
+                <th class="current"><span class="sr-only year">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="data">
+                <th>Cash <span class="description">This is the cash we currently have on hand.</span></th>
+                <td>$25</td>
+                <td>$30</td>
+                <td class="current">$28</td>
+              </tr>
+              <tr class="data">
+                <th>Checking <span class="description">Our primary transactional account.</span></th>
+                <td>$54</td>
+                <td>$56</td>
+                <td class="current">$53</td>
+              </tr>
+              <tr class="data">
+                <th>Savings <span class="description">Funds set aside for emergencies.</span></th>
+                <td>$500</td>
+                <td>$650</td>
+                <td class="current">$728</td>
+              </tr>
+              <tr class="total">
+                <th>Total <span class="sr-only">Assets</span></th>
+                <td>$579</td>
+                <td>$736</td>
+                <td class="current">$809</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <caption>Liabilities</caption>
+            <thead>
+              <tr>
+              <td></td>
+              <th><span class="sr-only">2019</span></th>
+              <th><span class="sr-only">2020</span></th>
+              <th><span class="sr-only">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="data">
+                <th>Loans <span class="description">The outstanding balance on our startup loan.</span></th>
+                <td>$500</td>
+                <td>$250</td>
+                <td class="current">$0</td>
+              </tr>
+              <tr class="data">
+                <th>Expenses <span class="description">Annual anticipated expenses, such as payroll.</span></th>
+                <td>$200</td>
+                <td>$300</td>
+                <td class="current">$400</td>
+              </tr>
+              <tr class="data">
+                <th>Credit <span class="description">The outstanding balance on our credit card.</span></th>
+                <td>$50</td>
+                <td>$50</td>
+                <td class="current">$75</td>
+              </tr>
+              <tr class="total">
+                <th>Total <span class="sr-only">Liabilities</span></th>
+                <td>$750</td>
+                <td>$600</td>
+                <td class="current">$475</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <caption>Net Worth</caption>
+            <thead>
+              <tr>
+              <td></td>
+              <th><span class="sr-only">2019</span></th>
+              <th><span class="sr-only">2020</span></th>
+              <th><span class="sr-only">2021</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="total">
+                <th>Total <span class="sr-only">Net Worth</span></th>
+                <td>$-171</td>
+                <td>$136</td>
+                <td class="current">$334</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/z53K_RLO2GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+    <p></p>
+
+
+    <div id="back-wall"></div>
+    <div class="characters">
+      <div id="offwhite-character">
+        <div id="white-hat"></div>
+        <div id="black-mask">
+          <div class="eyes left"></div>
+          <div class="eyes right"></div>
+        </div>
+        <div id="gray-instrument">
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+          <div class="black-dot"></div>
+        </div>
+        <div id="tan-table"></div>
+      </div>
+      <div id="black-character">
+        <div id="black-hat"></div>
+        <div id="gray-mask">
+          <div class="eyes left"></div>
+          <div class="eyes right"></div>
+        </div>
+        <div id="white-paper">
+          <i class="fas fa-music"></i>
+          <i class="fas fa-music"></i>
+          <i class="fas fa-music"></i>
+          <i class="fas fa-music"></i>
+        </div>
+      </div>
+      <div class="blue" id="blue-left"></div>
+      <div class="blue" id="blue-right"></div>
+      <div id="orange-character">
+        <div id="black-round-hat"></div>
+        <div id="eyes-div">
+          <div class="eyes left"></div>
+          <div class="eyes right"></div>
+        </div>
+        <div id="triangles">
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+          <div class="triangle"></div>
+        </div>
+        <div id="guitar">
+          <div class="guitar" id="guitar-left">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="guitar" id="guitar-right">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div id="guitar-neck"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="piano">
+      <img class="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freeCodeCamp Logo" />
+      <div class="keys">
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+  
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+  
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+      </div>
+    </div>
+
+
+    
+
+  </body>
+</html>
+  
